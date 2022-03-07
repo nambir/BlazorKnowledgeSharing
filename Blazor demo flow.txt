@@ -1,0 +1,17 @@
+
+like typescript for angular, c# for blazor
+
+Disclaimer: I am beginner, and doing my first project.
+---------
+Create Counter1 -- use Component base--Inheritance, Protected/public
+Create Counter2 -- use partial class
+
+Create Dashboard-- Parent Child. Reuse Counter class.
+@page "/dashboard/{InitialValue:int?}"
+<input type="number" @bind-value=InitialValue/>
+
+Dashboard- Querystring. -- Add initialValue, [Parameter]
+Add text box, bind value
+Add input type button and reset the value to 100.
+
+EmployeesAPI and EmployeesApp
